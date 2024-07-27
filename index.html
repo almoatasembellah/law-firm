@@ -1,0 +1,820 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>AL-Mahfouz</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/almahfouz.jpg" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    
+    <style> ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 400px;
+  background-color: #fff9f9;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: -20%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+        
+        
+        
+        </style>
+    <!-- =======================================================
+    * Template Name: Append
+    * Updated: Sep 18 2023 with Bootstrap v5.3.2
+    * Template URL: https://bootstrapmade.com/append-bootstrap-website-template/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
+  </head>
+
+  <body class="index-page" data-bs-spy="scroll" data-bs-target="#navmenu">
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+      <div class="container-fluid d-flex align-items-center justify-content-between">
+
+        <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1>ALMahfouz</h1>
+          <span>.</span>
+        </a>
+
+        <!-- Nav Menu -->
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html#hero" class="active">Home</a></li>
+            <li><a href="index.html#clients">Clients</a></li>
+            <li><a href="index.html#about">About us</a></li>
+            <li><a href="index.html#stats">Our Stats</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#team">Team</a></li>
+            <!-- <li class="dropdown has-dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down"></i></a>
+              <ul class="dd-box-shadow">
+                <li><a href="#">Dropdown 1</a></li>
+                <li class="dropdown has-dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down"></i></a>
+                  <ul class="dd-box-shadow">
+                    <li><a href="#">Deep Dropdown 1</a></li>
+                    <li><a href="#">Deep Dropdown 2</a></li>
+                    <li><a href="#">Deep Dropdown 3</a></li>
+                    <li><a href="#">Deep Dropdown 4</a></li>
+                    <li><a href="#">Deep Dropdown 5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Dropdown 2</a></li>
+                <li><a href="#">Dropdown 3</a></li>
+                <li><a href="#">Dropdown 4</a></li>
+              </ul> -->
+
+            </li>
+            <li><a href="index.html#contact">Contact us</a></li>
+          </ul>
+
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav><!-- End Nav Menu -->
+
+        <h3>ESTD  <span class="badge bg-secondary">1990</span></h3>
+
+      </div>
+    </header><!-- End Header -->
+
+    <main id="main">
+
+      <!-- Hero Section - Home Page -->
+      <section id="hero" class="hero">
+
+        <img src="assets/img/cover2.jpeg" alt="" data-aos="fade-in">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10">
+              <h2 data-aos="fade-up" data-aos-delay="100">Welcome to AL-Mahfouz Law Firm</h2>
+              <p data-aos="fade-up" data-aos-delay="200">Elite Of The Elite within Your Hands</p>
+            </div>
+
+      </section><!-- End Hero Section -->
+
+      <!-- Clients Section - Home Page -->
+      <section id="clients" class="clients">
+
+        <div class="container-fluid" data-aos="fade-up">
+
+          <div class="row gy-4">
+
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img src="assets/img/clients/elaosboa01268 (1).jpg" class="img-fluid" alt="">
+            </div><!-- End Client Item -->
+
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img src="assets/img/clients/fedex.png" class="img-fluid" alt="">
+            </div><!-- End Client Item -->
+
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img src="assets/img/clients/NIS.jpeg.jpg" class="img-fluid" alt="">
+            </div><!-- End Client Item -->
+
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+            </div><!-- End Client Item -->
+
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+            </div><!-- End Client Item -->
+
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+            </div><!-- End Client Item -->
+
+          </div>
+
+        </div>
+
+      </section><!-- End Clients Section -->
+
+      <!-- About Section - Home Page -->
+      <section id="about" class="about">
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row align-items-xl-center gy-5">
+
+            <div class="col-xl-5 content">
+              <h3>About Us</h3>
+              <h2>Who Are AL-MAHFOUZ?</h2>
+              <p>Al Mahfouz law firm established in 1990 is a professional firm which provides expert legal advice and guidance to clients. The firm, established in 1990, is assumed to have accumulated significant experience and a solid reputation over the years. Here's a brief overview of what you can expect from our firm:
+                Our team members have represented clients in various field like :
+                 Litigation by various kind : felony - misdemeanor - civil -commercial - Arbitration - sports arbitration - commercial arbitration -Dispute in CAS- Contract Drafting by it's various kind - FIDIC Contract - Corporate legal management -Legal representation for foreign offices and companies-banking & finance and commercial dispute settlement   – sports dispute -registration of real estate property-dispute resolution-trademark licensing agreements-employment law- trade & commerce-intellectual property law and competition- Acquiring nationalities and residency for foreigners -competition and antitrust .
+                 Our team’s experience for long-term approach, allows us to anticipate our client’s needs and provide them with solutions that are innovative, distinctive and sustainable. .</p>
+              <!-- <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a> -->
+            </div>
+
+            <div class="col-12 col-md-8 col-xl-7">
+              <img src="assets/img/Ahmed Mahfouz logo (1).jpeg" class="img-fluid" alt="Ahmed Mahfouz Logo">
+          </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </section><!-- End About Section -->
+
+      <!-- Stats Section - Home Page -->
+      <section id="stats" class="stats">
+
+        <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
+
+        <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="row gy-4">
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="2" class="purecounter"></span>
+                <p>Clients</p>
+              </div>
+            </div><!-- End Stats Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="2" class="purecounter"></span>
+                <p>Cases</p>
+              </div>
+            </div><!-- End Stats Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span data-purecounter-start="0" data-purecounter-end="39832" data-purecounter-duration="2" class="purecounter"></span>
+                <p>Hours Of Support</p>
+              </div>
+            </div><!-- End Stats Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span data-purecounter-start="0" data-purecounter-end="16" data-purecounter-duration="2" class="purecounter"></span>
+                <p>employees</p>
+              </div>
+            </div><!-- End Stats Item -->
+
+          </div>
+
+        </div>
+
+      </section><!-- End Stats Section -->
+
+      <!-- Services Section - Home Page -->
+      <section id="services" class="services">
+
+        <!--  Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Services</h2>
+          <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+        </div><!-- End Section Title -->
+
+        <div class="container">
+
+          <div class="row gy-4">
+
+            <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="100">
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
+                <div>
+                  <h4 class="title"><a href="services-details.html" class="stretched-link">Litigation</a></h4>
+                  <p class="description">Our experienced legal team represents clients in civil, criminal, and commercial disputes, ensuring the best possible outcomes through diligent preparation and strategic advocacy in court.</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="200">
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
+                <div>
+                  <h4 class="title"><a href="services-details.html" class="stretched-link">Legal consultation</a></h4>
+                  <p class="description">We offer expert legal advice on a wide range of issues within the framework of Egyptian law, providing personalized solutions and guidance to help clients navigate complex legal landscapes and make informed decisions.</p>
+                </div>
+              </div>
+            </div><!-- End Service Item -->
+
+            <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="300">
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
+                <div>
+                  <h4 class="title"><a href="services-details.html" class="stretched-link">Arbitration</a></h4>
+                  <p class="description">Our firm specializes in alternative dispute resolution, offering arbitration services that are efficient, confidential, and tailored to resolve conflicts outside the courtroom, saving time and resources with the experiency of  Dr \ Ahmed Mahfouz whose Professional Doctorate in Commercial Arbitration And Arbitration of Sport and Dismantling of sports Dispute.</p>
+                </div>
+              </div>
+            </div><!-- End Service Item -->
+
+            <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="400">
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
+                <div>
+                  <h4 class="title"><a href="services-details.html" class="stretched-link">Corporate & Investment Law</a></h4>
+                  <p class="description">We provide comprehensive legal services for businesses, including company formation, compliance, mergers and acquisitions, and corporate governance, ensuring our clients' operations run smoothly and legally.</p>
+                </div>
+              </div>
+            </div><!-- End Service Item -->
+
+            <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="500">
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
+                <div>
+                  <h4 class="title"><a href="services-details.html" class="stretched-link">Tax Services</a></h4>
+                  <p class="description">Tax Service: Our tax experts assist clients with tax planning, compliance, and dispute resolution, helping to minimize tax liabilities and ensure adherence to Egyptian tax laws and regulations.</p>
+                </div>
+              </div>
+            </div><!-- End Service Item -->
+
+            <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="600">
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
+                <div>
+                  <h4 class="title"><a href="services-details.html" class="stretched-link">Anti-doping</a></h4>
+                  <p class="description">We offer specialized legal services in antidoping regulations, representing athletes and sports organizations in compliance matters, investigations, and hearings to uphold the integrity of sports. And representing our clients before CAS</p>
+                </div>
+              </div>
+            </div><!-- End Service Item -->
+
+            <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="700">
+                <div class="service-item d-flex">
+                  <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
+                  <div>
+                    <h4 class="title"><a href="services-details.html" class="stretched-link">Contracts</a></h4>
+                    <p class="description">Our firm drafts, reviews, and negotiates all types of contracts, ensuring they are legally sound and protect our clients' interests, from employment agreements to commercial contracts and more.
+                    </p>
+                  </div>
+                </div>
+              </div><!-- End Service Item -->
+
+              <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="800">
+                  <div class="service-item d-flex">
+                    <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
+                    <div>
+                      <h4 class="title"><a href="services-details.html" class="stretched-link">Registeration of Real Estate </a></h4>
+                      <p class="description">We provide legal services for real estate transactions, including property sales, leases, and development projects, ensuring all dealings are legally compliant and secure.
+                        Nationality</p>
+                    </div>
+                  </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="800">
+                  <div class="service-item d-flex">
+                    <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
+                    <div>
+                      <h4 class="title"><a href="services-details.html" class="stretched-link">Nationality</a></h4>
+                      <p class="description">Our legal team assists clients with nationality and citizenship matters, including naturalization processes, dual citizenship applications, and resolving nationality disputes and acquiring Egyptian nationality.
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- End Service Item -->
+
+
+                <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="800">
+                  <div class="service-item d-flex">
+                    <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
+                    <div>
+                      <h4 class="title"><a href="services-details.html" class="stretched-link">FIDIC Contracts</a></h4>
+                      <p class="description">We specialize in FIDIC (International Federation of Consulting Engineers) contracts, providing expert advice and services for the drafting, negotiation, and management of these internationally recognized construction contracts.</p>
+                    </div>
+                  </div>
+                </div><!-- End Service Item -->
+
+          </div>
+
+        </div>
+
+      </section><!-- End Services Section -->
+
+    
+      <!-- Team Section - Home Page -->
+      <section id="team" class="team">
+
+        <!--  Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Team</h2>
+          <p>Our Team is the best of the best .. dealing with the Elite </p>
+        </div><!-- End Section Title -->
+
+        <div class="container">
+
+          <div class="row gy-5">
+
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="assets/img/team/unknown.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <!-- <a href="#"><i class="bi bi-twitter"></i></a> -->
+                  <a href="#"><i target="_blank" class="bi bi-facebook"></i></a>
+                  <a href="#"><i target="_blank" class="bi bi-instagram"></i></a>
+                  <a href="#"><i target="_blank" class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Seif Mahfouz</h4>
+                <span>Assistant Lawyer</span>
+                <p>Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio dire flow</p>
+              </div>
+            </div><!-- End Team Member -->
+
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src="assets/img/team/ahmedMahfouz.jpg" class="img-fluid"   alt="" >
+                <!-- <div class="social">
+                  <a href="#"><i target="_blank" class="bi bi-twitter"></i></a>
+                  <a href="#"><i target="_blank" class="bi bi-facebook"></i></a>
+                  <a href="#"><i target="_blank" class="bi bi-instagram"></i></a>
+                  <a href="#"><i target="_blank" class="bi bi-linkedin"></i></a>
+                </div> -->
+              </div>
+              <div class="member-info text-center">
+                <h4 class="popup" onclick="myFunction()">Ahmed mahfouz<span class="popuptext" id="myPopup"> 
+                  <ul> 
+                  <li>Licentiate of Law Ain Shams University Graduated July 1987.</li>
+                  <li>Doctorate in Arbitration and Investment Disputes.</li>
+                  <li>Two diplomas on international arbitration in regional and international disputes.</li>
+                  <li>Diploma of the International Arbitration intellectual property disputes.</li>
+                  <li>Diploma in sports marketing from the International Federation of Football Manager(FIFA).</li>
+                  <li>Diploma of the International Arbitration intellectual property disputes.</li></span>
+                  </ul>
+                </h4>
+
+                <span>Head Office</span>
+              </div>
+            </div><!-- End Team Member -->
+
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="assets/img/team/unknown.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i target="_blank" class="bi bi-twitter"></i></a>
+                  <a href="#"><i target="_blank" class="bi bi-facebook"></i></a>
+                  <a href="#"><i target="_blank" class="bi bi-instagram"></i></a>
+                  <a href="#"><i target="_blank" class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Mohamed Emad</h4>
+                <span>Assistant Lawyer</span>
+                <p>Illum minima ea autem doloremque ipsum quidem quas aspernatur modi ut praesentium vel tque sed facilis at qui</p>
+              </div>
+            </div><!-- End Team Member -->
+
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img src="assets/img/team/unknown.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i target="_blank" class="bi bi-twitter"></i></a>
+                  <a href="#"><i target="_blank" class="bi bi-facebook"></i></a>
+                  <a href="#"><i target="_blank" class="bi bi-instagram"></i></a>
+                  <a href="#"><i target="_blank" class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Mohamed Ahmed</h4>
+                <span>Accountant</span>
+                <p>Magni voluptatem accusamus assumenda cum nisi aut qui dolorem voluptate sed et veniam quasi quam consectetur</p>
+              </div>
+            </div><!-- End Team Member -->
+
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
+              <div class="member-img">
+                <img src="assets/img/team/unknown.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i target="_blank" class="bi bi-twitter"></i></a>
+                  <a href="#"><i target="_blank" class="bi bi-facebook"></i></a>
+                  <a href="#"><i target="_blank" class="bi bi-instagram"></i></a>
+                  <a href="#"><i target="_blank" class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Moustafa Ahmed</h4>
+                <span>Marketing</span>
+                <p>Qui consequuntur quos accusamus magnam quo est molestiae eius laboriosam sunt doloribus quia impedit laborum velit</p>
+              </div>
+            </div><!-- End Team Member -->
+
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+              <div class="member-img">
+                <img src="assets/img/team/unknown.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i target="_blank" class="bi bi-twitter"></i></a>
+                  <a href="#"><i target="_blank" class="bi bi-facebook"></i></a>
+                  <a href="#"><i target="_blank" class="bi bi-instagram"></i></a>
+                  <a href="#"><i target="_blank" class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Roy The dog</h4>
+                <span>Operation</span>
+                <p>Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis fugit eligendi cupiditate vel</p>
+              </div>
+            </div><!-- End Team Member -->
+
+          </div>
+
+        </div>
+
+      </section><!-- End Team Section -->
+
+      <!-- Call-to-action Section - Home Page -->
+      <section id="call-to-action" class="call-to-action">
+
+        <img src="assets/img/cta-bg.jpg" alt="">
+
+        <div class="container">
+          <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+            <div class="col-xl-10">
+              <div class="text-center">
+                <h3>Call To Action</h3>
+                <p>Call to action and take a seat.</p>
+                <a class="cta-btn" href="index.html#contact">Call To Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section><!-- End Call-to-action Section -->
+
+              </article>
+            </div><!-- End post list item -->
+
+          </div><!-- End recent posts list -->
+
+        </div>
+
+      </section><!-- End Recent-posts Section -->
+
+      <!-- Contact Section - Home Page -->
+      <section id="contact" class="contact">
+
+        <!--  Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Contact us</h2>
+          <p>You can always reach us out ask question, request support or provide us a feedback</p>
+        </div><!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="row gy-4">
+
+            <div class="col-lg-6">
+
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <div class="info-item" data-aos="fade" data-aos-delay="200">
+                    <i class="bi bi-geo-alt"></i>
+                    <h3>Address</h3>
+                    <p> 5 Ahmed Khashaba Street</p>
+                    <p>Elhegaz sq, Elnozha, Egypt</p>
+                  </div>
+                </div><!-- End Info Item -->
+
+                <div class="col-md-6">
+                  <div class="info-item" data-aos="fade" data-aos-delay="300">
+                    <i class="bi bi-telephone"></i>
+                    <h3>Call Us</h3>
+                    <p>02-26445742</p>
+                  </div>
+                </div><!-- End Info Item -->
+
+                <div class="col-md-6">
+                  <div class="info-item" data-aos="fade" data-aos-delay="400">
+                    <i class="bi bi-envelope"></i>
+                    <h3>Email Us</h3>
+                    <p>info@example.com</p>
+                    <p>contact@example.com</p>
+                  </div>
+                </div><!-- End Info Item -->
+
+                <div class="col-md-6">
+                  <div class="info-item" data-aos="fade" data-aos-delay="500">
+                    <i class="bi bi-clock"></i>
+                    <h3>Open Hours</h3>
+                    <p>Saturday - Wendesday</p>
+                    <p>9:00AM - 10:00PM</p>
+                  </div>
+                </div><!-- End Info Item -->
+
+              </div>
+
+            </div>
+
+            
+            <!-- Contact Form -->
+            <div class="col-lg-6">
+              <form method="post" id="form" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                <div class="row gy-4">
+                  <input type="hidden" name="access_key" value="0f47f7d0-1cad-47f5-8c17-df7d8c76d29b">
+
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                  </div>
+
+                  <div class="col-md-6 ">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                  </div>
+
+                  <div class="col-md-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                  </div>
+
+                  <div class="col-md-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                  </div>
+
+                  <div class="col-md-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                    <button type="submit">Send Message</button>
+                    <div id="result"></div>
+                  </div>
+
+                </div>
+              </form>
+            </div><!-- End Contact Form -->
+
+<!-- 
+            <div class="col-lg-6">
+              <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                  </div>
+
+                  <div class="col-md-6 ">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                  </div>
+
+                  <div class="col-md-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                  </div>
+
+                  <div class="col-md-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                  </div>
+
+                  <div class="col-md-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                    <button type="submit">Send Message</button>
+                  </div>
+
+                </div>
+              </form>
+            </div>End Contact Form -->
+
+          </div>
+
+        </div>
+
+      </section><!-- End Contact Section -->
+
+    </main>
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span>ALMahfouz.</span>
+            </a>
+            <p>.................................................................</p>
+            <div class="social-links d-flex mt-4">
+              <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <!-- <a href=""><i class="bi bi-instagram"></i></a> -->
+              <a href="https://www.linkedin.com/in/al-mahfouz-law-firm-9a2684304/" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Contact Us</h4>
+            <p>Ahmed AlJaber</p>
+            <p>Wafarah Real Estate Tower</p>
+            <p>Kuwait</p>
+            <p class="mt-4"><strong>Phone:</strong> <span>956-98060887</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Contact Us</h4>
+            <p>AL Gardens street</p>
+            <p>Building No.122, Hamad Alfayez </p>
+            <p>Jordan</p>
+            <p class="mt-4"><strong>Phone:</strong> <span>07-76170414</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div>
+
+          <!-- <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p>United States</p>
+            <p class="mt-4"><strong>Phone:</strong> <span>216-70817106</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div> -->
+
+        </div>
+      </div>
+
+      <div class="container copyright text-center mt-4">
+        <p>&copy; <span>Copyright</span> <strong class="px-1">ALMahfouz</strong> <span>All Rights Reserved</span></p>
+        <div class="credits">
+          Designed by <a href="https://www.linkedin.com/in/al-mutasim-bellah-a52979195/" target="_blank">Al-MutasimBellah</a>
+        </div>
+      </div>
+
+    </footer><!-- End Footer -->
+
+    <!-- Scroll Top Button -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    
+    <script>
+      const form = document.getElementById('form');
+      const result = document.getElementById('result');
+      
+      form.addEventListener('submit', function(e) {
+          const formData = new FormData(form);
+          e.preventDefault();
+      
+          const object = Object.fromEntries(formData);
+          const json = JSON.stringify(object);
+      
+          result.innerHTML = "Please wait..."
+      
+          fetch('https://api.web3forms.com/submit', {
+                  method: 'POST',
+                  headers: {
+                      'Content-Type': 'application/json',
+                      'Accept': 'application/json'
+                  },
+                  body: json
+              })
+              .then(async (response) => {
+                  let json = await response.json();
+                  if (response.status == 200) {
+                      result.innerHTML = json.message;
+                  } else {
+                      console.log(response);
+                      result.innerHTML = json.message;
+                  }
+              })
+              .catch(error => {
+                  console.log(error);
+                  result.innerHTML = "Something went wrong!";
+              })
+              .then(function() {
+                  form.reset();
+                  setTimeout(() => {
+                      result.style.display = "none";
+                  }, 3000);
+              });
+      });
+
+      function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+  }
+      </script>
+
+    <script src="assets/js/main.js"></script>
+    
+  </body>
+
+  </html>
